@@ -1,2 +1,1 @@
-# fot_repo
-Friends of Trillium code repo
+# Friends of Trillium code repo
