@@ -20,7 +20,7 @@
    sodipodi:docname="base_map.svg"><metadata
      id="metadata8"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
      id="defs6"><clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath20"><path
@@ -234,17 +234,18 @@
      inkscape:window-height="876"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.45682171"
-     inkscape:cx="1050.8317"
-     inkscape:cy="798.4063"
+     inkscape:zoom="0.41561886"
+     inkscape:cx="1218.0772"
+     inkscape:cy="765.62818"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" /><g
+     inkscape:current-layer="layer6" /><g
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="layer1"
-     style="display:inline"><g
+     style="display:inline"
+     sodipodi:insensitive="true"><g
        transform="matrix(0.2999322,-0.00638028,0.00638028,0.2999322,113.7,51.9)"
        id="g186"><g
          id="g188"><g
@@ -2186,7 +2187,8 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="ROAD"
-     style="display:none"><path
+     style="display:inline"
+     sodipodi:insensitive="true"><path
        inkscape:connector-curvature="0"
        id="path1828"
        style="display:inline;fill:#bbbbbb;fill-opacity:0.47999998;fill-rule:evenodd;stroke:none"
@@ -2315,7 +2317,8 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="BIRCH_CREEK"
-     style="display:none"><path
+     style="display:inline"
+     sodipodi:insensitive="true"><path
        inkscape:connector-curvature="0"
        id="path1298"
        style="display:inline;fill:none;stroke:#76a2c0;stroke-width:4.94999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:14.7, 14.7;stroke-dashoffset:19;stroke-opacity:1"
@@ -2814,7 +2817,8 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="SLOPE_EDGE"
-     style="display:none"><path
+     style="display:inline"
+     sodipodi:insensitive="true"><path
        inkscape:connector-curvature="0"
        id="path1424"
        style="display:inline;fill:#d9d3cc;fill-opacity:0.25;fill-rule:evenodd;stroke:none"
@@ -3247,7 +3251,8 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="SCALE"
-     style="display:none"><g
+     style="display:inline"
+     sodipodi:insensitive="true"><g
        style="display:inline"
        id="g13834"><title
          id="title13905">LEGEND</title><path
@@ -3556,4 +3561,25 @@
            sodipodi:role="line"
            y="1561.298"
            x="618.70044 629.95331 641.20618 653.71936 658.71564">scale</tspan></text>
-</g></g></svg>
+</g></g><g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="features"><rect
+       style="opacity:1;fill:#ff0000;fill-opacity:0.50196081;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
+       id="rect5065"
+       width="221.16801"
+       height="181.59059"
+       x="293.33862"
+       y="230.13361"><title
+         id="title5067">template_rect</title></rect><text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       x="387.04404"
+       y="316.27274"
+       id="text5067"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5069"
+         x="387.04404"
+         y="316.27274">foo</tspan></text>
+</g></svg>
