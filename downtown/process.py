@@ -9,6 +9,8 @@ from itertools import product
 
 from sheet_parser import load_csv, parse
 
+BASE_MAP = os.path.dirname(__file__) + '/base_map.svg'
+
 def export_png(svg, png):
     cmd_fmt = 'inkscape --export-png=%s --export-width=400 %s'
     cmd = cmd_fmt % (png, svg)
@@ -62,45 +64,53 @@ def defang(s):
     return s.replace('&','_').replace('<','_').replace('>','_')
 
 
-def make_rectangle(name, i, dimensions, lastx, lasty):
+def make_rectangle(name, i, dimensions, x, y):
     px_to_cm = 35.433
-    if lastx > 600:
-        y = 200 * (i%5)
-        x = 0
-    else:
-        y = lasty
-        x = lastx + 50
     width = dimensions[0] * px_to_cm
     height = dimensions[1] * px_to_cm
+    dim_str = "%1.1fx%1.1f" % (dimensions[0], dimensions[1])
     rstr = '''
     <g>
     <rect style="fill:#ff0000;fill-opacity:0.5;stroke:none;"
-       width="%s"
-       height="%s"
-       x="%s"
-       y="%s"
+       width="{w}"
+       height="{h}"
+       x="{x}"
+       y="{y}"
        />
     <text
-       style="font-size:12px;font-family:sans-serif;fill:#000000;stroke:none;"
-       x="%s"
-       y="%s"
-       ><tspan>%s</tspan></text>
+       style="font-size:10px;font-family:sans-serif;fill:#000000;stroke:none;"
+       x="{x2}"
+       y="{y2}"
+       >
+       <tspan x="{x3}" y="{y3}">{line1}</tspan>
+       <tspan x="{x4}" y="{y4}">{line2}</tspan></text>
     </g>
-    ''' % (width, height, x, y,
-           x, y+13, defang(name[:10]))
+    '''.format(
+        w=width, h=height, x=x, y=y,
+        x2=x, y2=y+13,
+        x3=x, y3=y+13,
+        x4=x, y4=y+26,
+        line1=defang(name[:10]),
+        line2=dim_str)
     print rstr
-    endx = x + width
-    endy = y
-    return etree.fromstring(rstr), endx, endy
+    nextx = x + width + 50
+    nexty = y
+    if nextx > 600:
+        nextx = 0
+        nexty = y + 200
+    return etree.fromstring(rstr), nextx, nexty
 
 
 def make_map():
+    if not os.path.exists('/tmp/new_map'):
+        os.makedirs('/tmp/new_map')
+
     csv_reader = load_csv()
     rectdata = parse(csv_reader)
 
-    export_png('base_map.svg', '/tmp/new_map/back.png')
+    #export_png(BASE_MAP, '/tmp/new_map/back.png')
 
-    dom = DOM('base_map.svg')
+    dom = DOM(BASE_MAP)
 
     lastx, lasty = 0, 0
 
@@ -115,14 +125,12 @@ def make_map():
 
     # Create the svg file and export a PNG
     svg_filename = '/tmp/new_map/new_map.svg'
-    png_filename = '/tmp/new_map/new_map.png'
+    #png_filename = '/tmp/new_map/new_map.png'
 
     dom.write_file(svg_filename)
 
-    export_png(svg_filename, png_filename)
+    #export_png(svg_filename, png_filename)
 
 
 if __name__ == '__main__':
-    if not os.path.exists('/tmp/new_map'):
-        os.makedirs('/tmp/new_map')
     make_map()
