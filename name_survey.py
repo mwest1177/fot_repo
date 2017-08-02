@@ -11,10 +11,10 @@ choices = [
 ballots = {
     'John': {
         'Trillium Farm': 3,
-        'Trillium Living-Learning Center': 2,
-        'Trillium Wilderness Education Retreat Center': 1,
-        'Trillium Wilderness Retreat Center': 4,
-        'Other': 5,
+        'Trillium Living-Learning Center': 4,
+        'Trillium Wilderness Education Retreat Center': 5,
+        'Trillium Wilderness Retreat Center': 2,
+        'Other': 1,
     },
     
     'Dougie': {
