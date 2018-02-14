@@ -530,7 +530,7 @@ Company’s principal executive office and shall be open to inspection and
 copying by each Member or the Member’s authorized representatives on reasonable
 Notice during normal business hours. The costs of inspection and copying shall
 be borne by the Company.
-
+sadfasdfasdf
 6.2. Financial books and records of the Company shall be kept on the cash
 method of accounting, which shall be the method of accounting followed by the
 Company for federal income tax purposes. A balance sheet and income statement
