@@ -220,16 +220,7 @@ transferred a Transferable Interest in the Company to a Transferee.
 1.39. “Vote” means a written consent or approval, a ballot cast at a Meeting,
 or a voice vote.
 
-1.40. “Voting Interest” means, with respect to a Member, the right to Vote or
-participate in management and any right to information concerning the business
-and affairs of the Company provided under the Act, except as limited by the
-provisions of this Agreement. All Members who have been assigned the same
-Sphere of Influence, as that term is defined in Section 2.13, and as those
-assignments set forth in Exhibit 1, shall share one vote.  Each Member who has
-not been assigned a Sphere of Influence, as set forth in Exhibit 1, shall have
-one vote. Each Member who has been assigned more than one Sphere of Influence
-shall have but one vote. The voting interests of the Members are not
-proportional to the Membership Units or Percentage Interests of the Members.
+1.40. “Voting Interest” means, with respect to a Member, the right to Vote or participate in management and any right to information concerning the business and affairs of the Company provided under the Act, except as limited by the provisions of this Agreement. All members set forth in Exhibit 3 shall have but one vote. The voting interests of the Members are not proportional to the Membership Units or Percentage Interests of the Members.
 
 1.41. “Writing” means any manner of recording on any tangible thing; any form
 of communication or representation, including letters, words, pictures, or
