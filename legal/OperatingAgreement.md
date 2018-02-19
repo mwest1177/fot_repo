@@ -1036,3 +1036,22 @@ of the parties to this agreement.
 
 [Signatures on following page.]
 
+
+Append to OA:
+
+Exhibit 3
+
+List of Members
+
+Member
+Michael Miller Brightwood
+Shandy Brown
+Miranda Burns
+Willard Douglas Campbell III
+John Hanrahan
+Andrew West
+Margaret West
+
+Total Members: 7
+
+
