@@ -141,9 +141,7 @@ Interest.
 
 1.21. “Meeting” is defined in Article V, Section 5.2.
 
-1.22. “Member” means an Initial Member or a Person who otherwise acquires a
-Membership Interest, as permitted under this Agreement, and who remains a
-Member.
+1.22. “Member” means an Initial Member or a Person who otherwise acquires a Membership Interest, as permitted under this Agreement, and who remains a Member as set forth in Exhibit 3. In the event that 2 or more individuals acquired membership interest as one entity, they shall be treated as 1 member each as set forth in Exhibit 3.
 
 1.23. “Membership Interest” means, collectively, a Member’s entire interest and
 rights in the Company, including the Member’s Transferable Interest, right to
